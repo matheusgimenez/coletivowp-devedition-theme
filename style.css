@@ -25,3 +25,13 @@ h2.portfolio-entry-title {
 .site-header-wrapper.no-scroll .site-header {
 	background: #fff !important;
 }
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-title {
+	text-transform: uppercase !important;
+}
+.entry-content {
+	padding-top: 25px;
+}
