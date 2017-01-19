@@ -15,3 +15,11 @@ function custom_section_portfolio(){
     get_template_part( 'section/section-portfolio' );
 }
 add_action( 'onepress_after_section_featuredpage', 'custom_section_portfolio'  );
+
+function devedition_add_body_classes( $classes ) {
+	if ( is_page_template( 'page-plugins.php') ) {
+		$classes[] = 'blog';
+	}
+	return $classes;
+}
+add_filter('body_class', 'devedition_add_body_classes');

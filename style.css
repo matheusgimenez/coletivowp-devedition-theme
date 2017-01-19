@@ -35,3 +35,10 @@ h2.portfolio-entry-title {
 .entry-content {
 	padding-top: 25px;
 }
+
+/** plugins things  */
+.wp-download-btn {
+	color:white !important;
+	margin-top: -105px;
+	margin-left: 20px;
+}
